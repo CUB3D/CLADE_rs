@@ -1,0 +1,19 @@
+# find in tlvs
+dictionaries = [
+        # c684c000
+        # c6850000
+        # c6851000
+        0xc684c000,
+        0xc684e000,
+        0xc6850000,
+]
+
+# find comp in verify_info, search for `00 01 ff ff ff ff ff ff 01 01 00 00`
+program_directory = [
+        { comp = 0xc4ea0000, exc_hi = 0xc6940000, exc_lo = 0x1e400000, exc_lo_small = 0 }
+        # TODO: _lo and _lo_small are a guess
+]
+
+# TODO
+size_high = 0x2000000
+size_low = 0x2000000

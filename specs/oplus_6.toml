@@ -1,0 +1,20 @@
+# from tlvs
+dictionaries = [
+#    0xc6938000,
+#    0xc693c000,
+#    0xc693d000,
+
+        0xc6938000,
+        0xc693a000,
+        0xc693c000,
+]
+
+# exc_hi from tlvs
+# comp from verify_info
+program_directory = [
+        { comp = 0xc5030000, exc_hi = 0x1e400000, exc_lo = 0x1e400000, exc_lo_small = 0 }
+]
+
+#TODO
+size_low = 0x21DF2C0
+size_high = 0x21DF2C0

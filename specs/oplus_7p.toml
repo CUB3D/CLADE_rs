@@ -1,0 +1,22 @@
+# TODO: just like oplus 6, this uses 0x4000, 0x1000, 0x1000 for dict sizes
+#  neither work
+
+dictionaries = [
+    # this is what's in the TLV
+#    0xc8d6c000,
+#    0xc8d70000,
+#    0xc8d71000,
+
+    # But we need them to be 0x2000 each so move each dict up a bit
+    0xc8d6c000,
+    0xc8d6e000,
+    0xc8d70000,
+]
+
+program_directory = [
+        { comp = 0xc7010000, exc_hi = 0x1e400000, exc_lo = 0, exc_lo_small = 0 }
+]
+
+
+size_high = 0x01b4d180
+size_low = 0x01b4d180

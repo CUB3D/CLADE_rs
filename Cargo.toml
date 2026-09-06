@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "clade",
+    "cli"
+]
+resolver = "3"

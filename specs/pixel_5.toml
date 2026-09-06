@@ -1,0 +1,16 @@
+# This is from the TLVs
+dictionaries = [
+    0xCF5E8000,
+    0xCF5EA000,
+    0xCF5Ec000,
+]
+
+# Comp is from verify_data
+# Look at global used in loop "clade_comp_sec_list", this will have ptr to comp then ptr to exc_hi
+program_directory = [
+    { comp = 0xCD100000, exc_hi = 0xcf2e0000, exc_lo = 0xcf2e0000, exc_lo_small = 0 }
+]
+
+
+size_high = 0x21DF2C0
+size_low = 0x10f0000
